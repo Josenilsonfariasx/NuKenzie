@@ -1,0 +1,23 @@
+.button {
+    padding: 0.81rem 1.25rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--Color-primary-2);
+    background: var(--Color-primary-2); 
+    color: var(--Grey-5);
+    cursor: pointer;
+
+
+    &.black {
+        border-radius: 0.125rem;
+        background: var(--Grey-4);
+        color:var(--grey-2);
+        font-family: var(--font-primary);
+        font-size: 0.625rem;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    &.full {
+        width: 100%;
+    }
+}

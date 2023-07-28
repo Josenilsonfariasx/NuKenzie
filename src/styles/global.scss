@@ -1,0 +1,19 @@
+:root {
+    --Color-primary: #FD377E;
+    --Color-primary-2: #E34981;
+    --Color-Secondary: #03B898;
+
+    --Grey-1: #F8F9FA;
+    --Grey-2: #E9ECEF;
+    --Grey-3: #868E96;
+    --Grey-4: #212529;
+    --Grey-5: #FFFFFF;
+
+    --font-primary : 'Nunito', sem serifa;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 60.875rem;
+}
