@@ -10,12 +10,17 @@ export const Form = ({addMoney}) =>{
 
     const submit = (event) => {
         event.preventDefault();
-        addMoney({
-            uuid: crypto.randomUUID(),
-            description: description,
-            value: value,
-            type: type
-        })
+        if(description == '' || value == '' || type == ''){
+            return ''
+        }
+        else {
+            addMoney({
+                uuid: crypto.randomUUID(),
+                description: description,
+                value: value,
+                type: type
+            })
+        }
         setDescription("");
         setValue(0);
         setType("");

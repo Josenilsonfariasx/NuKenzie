@@ -17,6 +17,12 @@ export const ListCard = ({listMoney, deleteMoneyList})=>{
                     </div>
                 </div>
             </section>
-        ): <></>)
+        ): 
+        <>
+            <div className={style.div}>
+                <h3 className="title three">Resumo Financeiro</h3>
+                <p className="title two">Você ainda não possui lançamento</p>
+            </div>
+        </>)
     )
 }
