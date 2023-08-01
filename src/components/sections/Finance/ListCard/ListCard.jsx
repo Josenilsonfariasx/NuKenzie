@@ -1,5 +1,5 @@
 import { Card } from "../Card/Card"
-import style from './styles.module.scss';
+import style from "./styles.module.scss";
 export const ListCard = ({listMoney, deleteMoneyList})=>{
     console.log(listMoney.length)
     return (

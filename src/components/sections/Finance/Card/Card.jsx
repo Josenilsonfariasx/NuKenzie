@@ -9,7 +9,7 @@ export const Card =({description, value, type, uuid, deleteMoneyList })=>{
                     <p className="paragraph">{(type == 0 ? "Entrada" : "Saida")}</p>
                 </div>
                 <div>
-                    <p className="title two">{value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL',})}</p>
+                    <p className="title two">{value.toLocaleString("pt-BR", { style: "currency", currency: "BRL",})}</p>
                     <img src={trash} alt="apagar" onClick={(event)=>{
                         deleteMoneyList(uuid)
                     }}/>
