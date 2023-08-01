@@ -6,10 +6,7 @@
     }
 
     div {
-        // width: clamp(21.9375rem, 10vw, 35rem);
-        height: 9.75rem;
-        // max-width: 35rem;
-        // width: 21.9375rem;
+        height: 5.4375rem;
 
         ul {
             display: flex;
@@ -18,8 +15,7 @@
             margin-bottom: 4.375rem;
 
             li {
-                div {
-                    
+                div {    
                     display: flex;
                     flex-direction: column;
                     gap: 0.625rem;
@@ -51,6 +47,7 @@
         align-items: center;
         width: 560px;
         div{
+            height: 50px;
             margin-top: 15px;
             width: 100%;
             display: flex;
